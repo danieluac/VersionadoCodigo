@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    width: 100%;
+    height: 450px;
+    background-image: url("../midea/fundo.jpg");
+    background-size:100% 100%;
+}
+.fundo-transparente {
+    width: 100%;
+    height: 400px;
+    background-color: rgba(1, 131, 168,0.6);
+    padding-top: 50px;
+}
+header > div>  nav {
+    width: 80%;
+    height: 50px;
+    background-color: #0183a8;
+    margin: 0px auto 20px auto;
+    padding-top: 20px;
+    border-radius: 5px;
+}
+nav > ul {
+    list-style: none;
+}
+nav > ul > li {
+    display: inline-block;
+    padding-left: 2%;
+}
+nav > ul > li > a {
+    color : white;
+    text-decoration: none;
+}
+#stn-1 {
+    width: 100%;
+    height: 500px;
+}
+#stn-2 {
+    width: 100%;
+    height: 500px;
+    background-color: #0183a8 ;
+}
+#stn-3{
+    width: 100%;
+    height: 500px;
+}
+footer {
+    width: 100%;
+    height: 500px;
+    background-color: #0183a8 ;
+}
